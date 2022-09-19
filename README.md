@@ -3,11 +3,11 @@ Repository for my exercise on skedulo training
 
 ### Hands-on exercises
 
-[x] 1.  Update the test class skedDateTimeUtils_Practice, fill in the code and make sure test cases are Passed.
+1.  :white_check_mark: Update the test class skedDateTimeUtils_Practice, fill in the code and make sure test cases are Passed.
 	- Class updated:
 		- `skedDateTimeUtils_Practice`
 
-[x] 2.  Implement a trigger logic to send an SMS to the related Job contact’s phone number when a Job is completed.
+1.  :white_check_mark: Implement a trigger logic to send an SMS to the related Job contact’s phone number when a Job is completed.
 	- Code created / updated
 		- Apex Trigger:
 			- `skedJobTrigger.trigger` - Job Trigger
@@ -22,15 +22,15 @@ Repository for my exercise on skedulo training
 		- Custom Metadata
 			- `skedJobConfig__mdt` - Configuration data for Job. Currently has only 1 entry for SMS text.
 
-[x] 3.  Update the test class skedObjectSelector_Practice, fill in the code and make sure test cases are Passed.
+1.  :white_check_mark: Update the test class skedObjectSelector_Practice, fill in the code and make sure test cases are Passed.
 	- Class updated:
 		- `skedObjectSelector_Practice`
 
-[x] 4.  Expose the getAvailableResources() method (skedJobSchedulingCtrlHandler class) as a custom SF REST (POST) API that receives the same parameters (request body is in json format) as the Apex Remote version.
+1.  :white_check_mark: Expose the getAvailableResources() method (skedJobSchedulingCtrlHandler class) as a custom SF REST (POST) API that receives the same parameters (request body is in json format) as the Apex Remote version.
 	- Class created:
 		- `skedJobSchedulingRest` - Handles `/SkedJobScheduling/v1/*` to return `bookingData` and `availableResources` based on JSON input.
 
-[x] 5.  Customize the resource availability calculation logic to include Shift records as busy events.
+1.  :white_check_mark: Customize the resource availability calculation logic to include Shift records as busy events.
 	- Classes updated:
 		- `skedBaseModels` - New virtual class created for `skill` and `resourceSkill`
 		- `skedModels` - New virtual class created for `skill` and `resourceSkill`. These extend the classes in `skedBaseModels`
