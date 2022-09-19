@@ -1,5 +1,5 @@
 # sfdc-be-training
-Repository for my exercise on skedulo training
+Repository for my exercise on skedulo training. [Also refer to documentation](document/)
 
 ### Hands-on exercises
 
